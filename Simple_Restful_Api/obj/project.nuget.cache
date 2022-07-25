@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "q6iYB2si15B3lgPfute9Y4f570te98A7r6maSuJkezGwghInlSbY6TOoJCfw434rPx0rORH+Nc6XAOiiQyrXkw==",
+  "success": true,
+  "projectFilePath": "/Users/qyangli/Documents/Simple_Restful_Api/Simple_Restful_Api/Simple_Restful_Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/qyangli/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/qyangli/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/qyangli/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/qyangli/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/qyangli/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/qyangli/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
