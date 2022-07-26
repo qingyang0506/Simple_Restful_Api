@@ -26,3 +26,7 @@
 /Users/qyangli/Documents/Simple_Restful_Api/Simple_Restful_Api/obj/Debug/net6.0/Simple_Restful_Api.pdb
 /Users/qyangli/Documents/Simple_Restful_Api/Simple_Restful_Api/obj/Debug/net6.0/Simple_Restful_Api.genruntimeconfig.cache
 /Users/qyangli/Documents/Simple_Restful_Api/Simple_Restful_Api/obj/Debug/net6.0/ref/Simple_Restful_Api.dll
+/Users/qyangli/Documents/Simple_Restful_Api/Simple_Restful_Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/qyangli/Documents/Simple_Restful_Api/Simple_Restful_Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/qyangli/Documents/Simple_Restful_Api/Simple_Restful_Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/qyangli/Documents/Simple_Restful_Api/Simple_Restful_Api/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll

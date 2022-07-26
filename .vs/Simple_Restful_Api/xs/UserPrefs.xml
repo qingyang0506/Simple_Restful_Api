@@ -1,4 +1,35 @@
 ﻿<Properties StartupConfiguration="{34C27BF0-BC56-4BDE-92ED-E3F11D8D352E}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Simple_Restful_Api/Program.cs">
+    <Files>
+      <File FileName="Simple_Restful_Api/Program.cs" Line="6" Column="19" />
+      <File FileName="Simple_Restful_Api/Controllers/DigimonController.cs" Line="6" Column="23" />
+      <File FileName="Simple_Restful_Api/Model/Digimon.cs" Line="11" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Simple_Restful_Api" expanded="True">
+            <Node name="Simple_Restful_Api" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Simple__Restful__Api FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Simple__Restful__Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
