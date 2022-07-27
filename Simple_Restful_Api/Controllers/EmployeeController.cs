@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Simple_Restful_Api.Controllers
 {
+    //this controller to implement the crud operation
     [ApiController]
     [Route("[controller]")]
     public class EmployeeController:ControllerBase
@@ -97,13 +98,13 @@ namespace Simple_Restful_Api.Controllers
             var employee = await db.Employees.FindAsync(id);
             if (employee is null)
             {
-                return Ok();
+                return Ok("there is no such employee");
             }
 
             db.Employees.Remove(employee);
             await db.SaveChangesAsync();
 
-            return Ok();
+            return Ok("the target employee is deleted");
         }
     }
 }
