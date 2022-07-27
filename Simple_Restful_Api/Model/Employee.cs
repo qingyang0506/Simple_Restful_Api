@@ -11,6 +11,20 @@ namespace Simple_Restful_Api.Model
         public Employee()
         {
         }
+
+        public override bool Equals(object? obj)
+        {
+            return obj is Employee employee &&
+                   Id == employee.Id &&
+                   Age == employee.Age &&
+                   Name == employee.Name &&
+                   Salary == employee.Salary;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Id, Age, Name, Salary);
+        }
     }
 }
 

@@ -1,4 +1,9 @@
 ﻿<Properties StartupConfiguration="{34C27BF0-BC56-4BDE-92ED-E3F11D8D352E}|Default">
+  <MonoDevelop.Ide.ItemProperties.Simple__RestFul__ApiUnitTest FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Simple__Restful__Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Simple_Restful_Api/Controllers/EmployeeController.cs">
     <Files>
       <File FileName="Simple_Restful_Api/Program.cs" Line="13" Column="43" />
@@ -28,11 +33,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Simple__Restful__Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>

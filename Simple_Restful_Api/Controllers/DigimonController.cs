@@ -34,7 +34,7 @@ namespace Simple_Restful_Api.Controllers
         /// </summary>
         /// <returns>A string representing the digimon information for you according to your age</returns>
         [HttpGet]
-        [Route("raw")]
+        [Route("age")]
         [ProducesResponseType(200)]
         public async Task<IActionResult> GetYourDigimonByAge(int age)
         {

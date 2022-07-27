@@ -9,8 +9,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-//builder.Services.AddDbContext<EmployeeDb>(opt =>
-//    opt.UseInMemoryDatabase("employees"));
+//configure the sqlite
 var connectionString = builder.Configuration.GetConnectionString("Employees") ?? "Data Source=Employees.db";
 builder.Services.AddSqlite<EmployeeDb>(connectionString);
 //get the client name from the configuration file

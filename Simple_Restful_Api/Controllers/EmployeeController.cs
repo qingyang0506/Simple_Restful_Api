@@ -40,7 +40,7 @@ namespace Simple_Restful_Api.Controllers
         /// <param name="id">The ID of the message to return</param>
         /// <returns>return a employee information by id</returns>
         [HttpGet("{id}")]
-        public async Task<ActionResult<Employee>> GetEmployee(int id)
+        public async Task<ActionResult<Employee>> GetEmployeeById(int id)
         {
             var employee = await db.Employees.FindAsync(id);
             if (employee == null)
@@ -62,7 +62,7 @@ namespace Simple_Restful_Api.Controllers
             db.Employees.Add(e);
             await db.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetEmployee),new { id = e.Id }, e);
+            return CreatedAtAction(nameof(GetEmployeeById),new { id = e.Id }, e);
         }
 
 

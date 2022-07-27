@@ -26,6 +26,8 @@
     <None Remove="Microsoft.EntityFrameworkCore.InMemory" />
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
+    <None Remove="Employees.db-wal" />
+    <None Remove="Employees.db-shm" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
