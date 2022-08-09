@@ -10,8 +10,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 //configure the sqlite
-var connectionString = builder.Configuration.GetConnectionString("Employees") ?? "Data Source=Employees.db";
-builder.Services.AddSqlite<EmployeeDb>(connectionString);
+builder.Services.AddDbContext<EmployeeDb>(options =>
+{
+    options.UseSqlite(builder.Configuration["DbConnection"]);
+});
 //get the client name from the configuration file
 string name = builder.Configuration["DigimonClientName"];
 //get the third party restful api url from the configuration file
@@ -23,7 +25,6 @@ builder.Services.AddHttpClient(name, client =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

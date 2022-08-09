@@ -1,29 +1,26 @@
-﻿<Properties StartupConfiguration="{34C27BF0-BC56-4BDE-92ED-E3F11D8D352E}|Default">
-  <MonoDevelop.Ide.ItemProperties.Simple__RestFul__ApiUnitTest FirstBuild="True" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Simple__Restful__Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties StartupConfiguration="{8A32DE7E-AFBB-445C-95AB-93D8F46C6BE9}|Default">
+  <MonoDevelop.Ide.ItemProperties.Simple__RestFul__ApiUnitTest PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Simple_Restful_Api/Controllers/EmployeeController.cs">
     <Files>
-      <File FileName="Simple_Restful_Api/Program.cs" Line="13" Column="43" />
-      <File FileName="Simple_Restful_Api/Controllers/DigimonController.cs" Line="6" Column="23" />
-      <File FileName="Simple_Restful_Api/Model/Digimon.cs" Line="11" Column="10" />
-      <File FileName="Simple_Restful_Api/Model/Employee.cs" Line="2" Column="35" />
-      <File FileName="Simple_Restful_Api/Controllers/EmployeeController.cs" Line="9" Column="54" />
-      <File FileName="Simple_Restful_Api/Model/EmployeeDb.cs" Line="4" Column="11" />
+      <File FileName="Simple_Restful_Api/Controllers/ManagerController.cs" Line="20" Column="51" />
+      <File FileName="Simple_Restful_Api/Model/Employee.cs" Line="19" Column="42" />
+      <File FileName="Simple_Restful_Api/Controllers/DigimonController.cs" Line="1" Column="1" />
+      <File FileName="Simple_Restful_Api/Controllers/EmployeeController.cs" Line="16" Column="45" />
+      <File FileName="Simple_Restful_Api/Program.cs" Line="14" Column="17" />
+      <File FileName="Simple_Restful_Api/Model/EmployeeDb.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Simple_Restful_Api" expanded="True">
             <Node name="Simple_Restful_Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Model" expanded="True" />
+            </Node>
+            <Node name="Simple_RestFul_ApiUnitTest" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="Controllers" expanded="True" />
-              <Node name="Model" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -31,7 +28,18 @@
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
       </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Simple_Restful_Api" expanded="True" selected="True" />
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Simple__Restful__Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
